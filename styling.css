@@ -24,3 +24,18 @@ table {
 .centre {
     text-align: center;
 }
+
+/*Media screen adjustments*/
+@media screen and (max-width: 768px) {
+    table {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 448px) {
+    table {
+        width: 95%;
+    }
+    h1 {
+        font-size: 25px;
+    }
+}
