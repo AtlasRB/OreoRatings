@@ -1,0 +1,26 @@
+body {
+    background-image: url('/images/oreos.jpg');
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+th, td {
+    border: 1px solid;
+}
+table {
+    border: 1px solid;
+    background: rgba(0, 0, 0, 0.4);
+    width: 50%;
+    margin: 3%;
+    border-collapse: collapse;
+}
+
+.hearts {
+    color: pink;
+    border-color: white;
+}
+.centre {
+    text-align: center;
+}
