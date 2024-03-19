@@ -8,17 +8,13 @@
     <title>OreoRankings</title>
 
     <link rel="stylesheet" href="styling.css" type="text/css">
-
-    <style>
-        p {
-          background-image: url('images/oreos.jpg');
-        }
-    </style> 
+    <script defer src="index.js"></script>
 </head>
 
 <body>
     <h1>Oreo Flavour Ratings</h1>
 
+    <h2>Oreo Flavours</h2>
     <table>
         <tr>
             <th>Oreo Flavour</th>
@@ -26,21 +22,38 @@
             <th>Connor Rating</th>
         </tr>
         <tr>
-            <td>Choc a Brownie</td>
+            <td class="centre">Choc a Brownie</td>
             <td class="centre">8</td>
             <td class="centre">7</td>
         </tr>
         <tr>
-            <td>Birthday Cake</td>
+            <td class="centre">Birthday Cake</td>
             <td class="centre">5</td>
             <td class="centre">5</td>
         </tr>
         <tr>
-            <td>Golden Oreo</td>
+            <td class="centre">Golden Oreo</td>
             <td class="centre">8</td>
             <td class="centre">8</td>
         </tr>
     </table>
+
+    <h2>Homemade Oreos</h2>
+    <table>
+        <tr>
+            <th>Oreo Flavour</th>
+            <th class="hearts">&#128150; Maya Rating &#128150;</th>
+            <th>Connor Rating</th>
+        </tr>
+        <tr>
+            <td class="centre hover"> 
+                <div class="popup" onclick="showOreos()">Oreo Cupcakes
+                    <span class="popuptext" id="myPopup"><img src="images/oreoCupcakes.jpg" alt="A picture of coreo cupcakes" class="size"></span>
+                </div> 
+            </td>
+            <td class="centre">9</td>
+            <td class="centre">9</td>
+        </tr>
 </body>
 
 </html>
