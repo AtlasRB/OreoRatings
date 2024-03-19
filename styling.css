@@ -31,21 +31,6 @@ table {
     border-color: white;
 }
 
-/*Media screen adjustments*/
-@media screen and (max-width: 768px) {
-    table {
-        width: 80%;
-    }
-}
-@media screen and (max-width: 448px) {
-    table {
-        width: 95%;
-    }
-    h1 {
-        font-size: 25px;
-    }
-}
-
 .popup {
     position: relative;
     display: inline-block;
@@ -81,4 +66,43 @@ table {
 .size {
     width: 250px;
     height: auto
+}
+
+/*Media screen adjustments*/
+@media screen and (max-width: 768px) {
+    table {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 448px) {
+    table {
+        width: 95%;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .popup .popuptext {
+        width: 200px;
+        height: 130px;
+        background-color: #555;
+        border-radius: 6px;
+        padding: 8px 0;
+        z-index: 1;
+        bottom: 300%;
+        margin-left: 55%;
+    }
+    .popup .popuptext::after {
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        margin-left: 0px;
+        border-width: 0px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+    }
+    .size {
+        width: 170px;
+        height: auto
+    }
 }
