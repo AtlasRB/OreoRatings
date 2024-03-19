@@ -82,14 +82,12 @@ table {
         font-size: 25px;
     }
     .popup .popuptext {
-        width: 200px;
-        height: 130px;
         background-color: #555;
         border-radius: 6px;
         padding: 8px 0;
         z-index: 1;
-        bottom: 300%;
-        margin-left: 55%;
+        bottom: 250%;
+        margin-left: -25%;
     }
     .popup .popuptext::after {
         content: "";
@@ -100,9 +98,5 @@ table {
         border-width: 0px;
         border-style: solid;
         border-color: #555 transparent transparent transparent;
-    }
-    .size {
-        width: 170px;
-        height: auto
     }
 }
