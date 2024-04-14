@@ -1,9 +1,14 @@
-function showOreoCupcakes() {
-  var popup = document.getElementById("myPopup1");
-  popup.classList.toggle("show");
-}
+function showOreos(popupId) {
+  var popup = document.getElementById(popupId);
+  var popups = document.querySelectorAll('.popuptext');
 
-function showOreoBrownies() {
-  var popup = document.getElementById("myPopup2");
+  // Hide other popups if they are currently shown
+  popups.forEach(function(item) {
+      if (item.id !== popupId && item.classList.contains("show")) {
+          item.classList.remove("show");
+      }
+  });
+
+  // Toggle the visibility of the clicked popup
   popup.classList.toggle("show");
 }
