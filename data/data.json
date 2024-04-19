@@ -45,13 +45,56 @@
 
     "nonOreoBiscuits": [
         {
-            "flavour": "Choc a Brownie",
-            "maya": "8",
+            "flavour": "Dairy Milk Oreo",
+            "maya": "7",
             "connor": "7"
         },        {
-            "flavour": "Chocolate Minis",
-            "maya": "6",
-            "connor": "5"
+            "flavour": "Oreo Bites",
+            "maya": "7",
+            "connor": "8"
+        },        {
+            "flavour": "Oreo Frozen Desert Sandwich",
+            "maya": "8",
+            "connor": "8"
+        },        {
+            "flavour": "Vanilla Rolls",
+            "maya": "5",
+            "connor": "6"
+        }
+    ],
+
+    "homemadeOreos": [
+        {
+            "flavour": "Oreo Cupcakes",
+            "image": "images/oreoCupcakes.jpg",
+            "alt": "A picture of oreo cupcakes",
+            "maya": "9",
+            "connor": "9"
+        },      {
+            "flavour": "Oreo Brownies",
+            "image": "images/oreoBrownies.jpg",
+            "alt": "A picture of oreo brownies",
+            "maya": "7",
+            "connor": "10"
+        }
+    ],
+
+    "homemadeOreoMilkshakes": [
+        {
+            "flavour": "Choc a Brownie <br> Vanilla Rolls Straw",
+            "image": "images/oreoMilkshake1.jpg",
+            "alt": "A picture an oreo milkshake",
+            "iceCream": "Double Chocolate",
+            "maya": "10",
+            "connor": "10"
+        }
+    ],
+
+    "otherOreos": [
+        {
+            "flavour": "Five Guys Oreo Milkshake",
+            "maya": "7",
+            "connor": "6"
         }
     ]
 }
