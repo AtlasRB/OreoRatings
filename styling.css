@@ -78,7 +78,7 @@ table {
     }
     .popup .popuptext {
         bottom: 115%;
-        left: 150%;
+        left: 200%;
         margin-left: -25%;
     }
     .popup .popuptext::after {
@@ -94,5 +94,8 @@ table {
     }
     h1 {
         font-size: 25px;
+    }
+    h2 {
+        font-size: 21px;
     }
 }
