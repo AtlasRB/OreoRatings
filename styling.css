@@ -76,6 +76,17 @@ table {
     table {
         width: 80%;
     }
+    .popup .popuptext {
+        bottom: 115%;
+        left: 150%;
+        margin-left: -25%;
+    }
+    .popup .popuptext::after {
+        top: 0%;
+        left: 0%;
+        margin-left: 0px;
+        border-width: 0px;
+    }
 }
 @media screen and (max-width: 448px) {
     table {
@@ -83,23 +94,5 @@ table {
     }
     h1 {
         font-size: 25px;
-    }
-    .popup .popuptext {
-        background-color: #555;
-        border-radius: 6px;
-        padding: 8px 0;
-        z-index: 1;
-        bottom: 250%;
-        margin-left: -25%;
-    }
-    .popup .popuptext::after {
-        content: "";
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        margin-left: 0px;
-        border-width: 0px;
-        border-style: solid;
-        border-color: #555 transparent transparent transparent;
     }
 }
