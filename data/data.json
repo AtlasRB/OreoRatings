@@ -29,11 +29,11 @@
             "maya": "10",
             "connor": "7"
         },        {
-            "flavour": "Stawberry Minis",
+            "flavour": "Strawberry Minis",
             "maya": "6",
             "connor": "6"
         },        {
-            "flavour": "Rasberry and Blueberry",
+            "flavour": "Raspberry and Blueberry",
             "maya": "5",
             "connor": "5"
         },        {
@@ -48,6 +48,10 @@
             "flavour": "Oreo Minis",
             "maya": "7",
             "connor": "4"
+        },        {
+            "flavour": "Peanut butter",
+            "maya": "8",
+            "connor": "6"
         }
     ],
 
