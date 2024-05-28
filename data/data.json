@@ -96,12 +96,14 @@
             "flavour": "Oreo Cupcakes",
             "image": "images/oreoCupcakes.jpg",
             "alt": "A picture of oreo cupcakes",
+            "description": "Made using original, golden and choc a brownie oreos the oreos used varied with each cupcake. An oreo was put at the base of the cupcake and half an oreo was placed on top. Crushed up oreos were also used in the icing mixture",
             "maya": "9",
             "connor": "9"
         },      {
             "flavour": "Oreo Brownies",
             "image": "images/oreoBrownies.jpg",
             "alt": "A picture of oreo brownies",
+            "description": "Made using original, golden and choc a brownie oreos. Oreos were put at the base of the oreo and crushed oreos were placed on top.",
             "maya": "7",
             "connor": "10"
         }
@@ -112,6 +114,7 @@
             "flavour": "Choc a Brownie <br> Vanilla Rolls Straw",
             "image": "images/oreoMilkshake1.jpg",
             "alt": "A picture an oreo milkshake",
+            "description": "Our milkshake was make with choc a brownie oreos and double chocolate ice cream. Half of an extra choc a brownie oreo as well as a full vanilla straw oreo were added on top of the whipped cream.",
             "iceCream": "Double Chocolate",
             "maya": "10",
             "connor": "10"
