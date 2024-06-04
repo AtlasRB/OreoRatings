@@ -1,5 +1,5 @@
 //Oreo Biscuits
-const oreoBiscuitTarget = document.querySelector('.oreoBisuits')
+const oreoBiscuitTarget = document.querySelector('.oreoBiscuits')
 fetch('data/data.json').then(function (response) {
     return response.json()
 }).then(function (data) {
@@ -12,7 +12,7 @@ fetch('data/data.json').then(function (response) {
 })
 
 //Non Oreo Biscuits
-const nonOreoBiscuitTarget = document.querySelector('.nonOreoBisuits')
+const nonOreoBiscuitTarget = document.querySelector('.nonOreoBiscuits')
 fetch('data/data.json').then(function (response) {
     return response.json()
 }).then(function (data) {

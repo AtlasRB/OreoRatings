@@ -27,3 +27,20 @@ function showMilkshakes(popupId) {
   // Toggle the visibility of the clicked popup
   popup.classList.toggle("show");
 }
+
+function filterTable() {
+  const searchValue = document.getElementById('searchBar').value.toLowerCase();
+  const tableRows = document.querySelectorAll('.oreoBiscuits tbody tr');
+
+  tableRows.forEach(row => {
+      const nameCell = row.cells[0];
+      if (nameCell) {
+          const nameValue = nameCell.textContent.toLowerCase();
+          if (nameValue.includes(searchValue)) {
+              row.style.display = '';
+          } else {
+              row.style.display = 'none';
+          }
+      }
+  });
+}
