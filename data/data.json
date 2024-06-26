@@ -72,6 +72,14 @@
             "flavour": "Vanilla Latte",
             "maya": "7",
             "connor": "8"
+        },        {
+            "flavour": "Green Tea",
+            "maya": "7",
+            "connor": "5"
+        },        {
+            "flavour": "Oreo Bits",
+            "maya": "6",
+            "connor": "7"
         }
     ],
 
@@ -92,6 +100,10 @@
             "flavour": "Vanilla Rolls",
             "maya": "5",
             "connor": "6"
+        },        {
+            "flavour": "Green Tea Rolls",
+            "maya": "7",
+            "connor": "8"
         }
     ],
 
@@ -122,6 +134,14 @@
             "iceCream": "Double Chocolate",
             "maya": "10",
             "connor": "10"
+        }, {
+            "flavour": "Raspberry and Blueberry <br> Green Tea Rolls Straw",
+            "image": "images/oreoMilkshake2.jpg",
+            "alt": "A picture an oreo milkshake",
+            "description": "Our milkshake was make with Raspberry and Blueberry oreos and double chocolate ice cream. Half of an extra raspberry and blueberry oreo as well as a full green tea straw oreo were added on top of the whipped cream.",
+            "iceCream": "Double Chocolate",
+            "maya": "4",
+            "connor": "8"
         }
     ],
 
