@@ -34,7 +34,7 @@ fetch('data/data.json').then(function (response) {
         homemadeOreosTarget.innerHTML += 
          `<tr><td class="centre hover" onclick="showOreos('oreoPopup${counter}')"> 
                     <div class="popup">${item.flavour}
-                        <span class="popuptext" id="oreoPopup${counter}">
+                        <span class="popuptext oPopup" id="oreoPopup${counter}">
                             <img src="${item.image}" alt="${item.alt}" class="size">
                             <p>${item.description}</p>
                         </span>
@@ -56,7 +56,7 @@ fetch('data/data.json').then(function (response) {
         homemadeOreoMilkshakesTarget.innerHTML += 
          `<tr><td class="centre hover" onclick="showOreos('milkshakePopup${counter}')"> 
                     <div class="popup">${item.flavour}
-                        <span class="popuptext" id="milkshakePopup${counter}">
+                        <span class="popuptext mPopup" id="milkshakePopup${counter}">
                             <img src="${item.image}" alt="${item.alt}" class="size">
                             <p>${item.description}</p>
                         </span>

@@ -51,6 +51,9 @@ table {
     left: 50%;
     transform: translateX(-50%);
 }
+.popup .popuptext:hover {
+    color: white;
+}
 .popup .popuptext::after {
     content: "";
     position: absolute;
@@ -84,12 +87,13 @@ table {
     table {
         width: 80%;
     }
-    .popup .popuptext {
-        bottom: 115%;
-        left: 200%;
-        margin-left: -25%;
+    .popup .oPopup {
+        transform: translateX(-20%);
     }
-    .popup .popuptext::after {
+    .popup .mPopup {
+        transform: translateX(-10%);
+    }
+    .popup .popuptext::after { /*Removes bottom pointer arrow from popup*/
         top: 0%;
         left: 0%;
         margin-left: 0px;
