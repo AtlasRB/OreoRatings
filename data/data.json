@@ -169,6 +169,13 @@
             "description": "Strawberries that have been covered in melted dairy milk oreo chocolate and the left in the fridge for the chocolate to set.",
             "maya": "8",
             "connor": "7"
+        },      {
+            "flavour": "Oreo Cookies",
+            "image": "images/oreoCookies.jpg",
+            "alt": "A picture of cookies made with and decorated with chocolate oreos",
+            "description": "These were made with a cookie recipe where we added small oreo pieces as chips for the cookies and then added a piece of oreo to decorate the top of each cookie.",
+            "maya": "10",
+            "connor": "9"
         }
     ],
 
